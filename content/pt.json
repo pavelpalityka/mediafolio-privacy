@@ -1,172 +1,185 @@
 {
-  "title": "Política de privacidade — Maskmoji",
-  "updatedLabel": "Última atualização: 26 de agosto de 2026",
-  "footer": "© 2026 Pavel Palityka · Maskmoji",
-  "fallbackNotice": "",
+  "title": "Política de privacidade — MediaFolio",
+  "updatedLabel": "Last updated: 1 September 2026",
+  "footer": "© 2026 Pavel Palityka · MediaFolio",
+  "fallbackNotice": "O texto completo é apresentado em inglês. A versão vinculativa é a versão em inglês.",
   "sections": [
     {
-      "title": "Introdução",
+      "title": "Introduction",
       "blocks": [
         {
           "type": "p",
-          "html": "Esta Política de privacidade explica como o <strong>Maskmoji</strong> (a aplicação móvel “Maskmoji” / “Maskmoji Pro”, pacote <code>com.palityka.maskmoji</code>) trata a informação quando usa a app no Android."
+          "html": "This Privacy Policy explains how <strong>MediaFolio</strong> (the mobile application “MediaFolio” / “MediaFolio Pro”, package <code>com.palityka.mediafolio</code>) processes information when you use the app on Android."
         },
         {
           "type": "p",
-          "html": "O Maskmoji oculta rostos em fotos e vídeos com emoji, blocos de cor, pixelização ou desfoque. O processamento corre <strong>no seu dispositivo</strong>. A app <strong>não</strong> exige conta e <strong>não</strong> envia as suas fotos ou vídeos para os nossos servidores."
+          "html": "MediaFolio is a media gallery with a <strong>hidden vault</strong> for photos, videos, and PDFs. The public gallery shows your device photos and videos; the hidden area is protected by a password or fingerprint. All vault data is stored <strong>only on your device</strong> in app-private storage. The app does <strong>not</strong> require an account and does <strong>not</strong> upload your media to our servers. Version 1 has no Google cloud backup or sync."
         }
       ]
     },
     {
-      "title": "Responsável pelo tratamento",
+      "title": "Data controller",
       "blocks": [
         {
           "type": "p",
-          "html": "<strong>Responsável:</strong> Pavel Palityka<br><strong>Contacto:</strong> <a href=\"mailto:pavelpalityka@gmail.com\">pavelpalityka@gmail.com</a>"
+          "html": "<strong>Controller:</strong> Pavel Palityka<br><strong>Contact:</strong> <a href=\"mailto:pavelpalityka@gmail.com\">pavelpalityka@gmail.com</a>"
         }
       ]
     },
     {
-      "title": "Informações processadas pela aplicação",
+      "title": "Information processed by the app",
       "blocks": [
         {
           "type": "p",
-          "html": "Consoante a utilização do Maskmoji, podem ser processadas as seguintes categorias de dados:"
-        },
-        {
-          "type": "ul",
-          "items": [
-            "<strong>Fotos e vídeos no dispositivo</strong> — ficheiros que escolhe, partilha ou captura. São lidos e processados localmente. Não recebemos cópias destes conteúdos.",
-            "<strong>Dados de deteção facial</strong> — caixas e metadados só no dispositivo. Modelo ONNX local (YuNet). Não nos são enviados.",
-            "<strong>Definições e lista de recentes</strong> — tema, idioma, emoji, estilo de máscara e lista local de trabalhos recentes no dispositivo.",
-            "<strong>Captura com câmara</strong> — foto ou vídeo pela câmara da app é guardado na cache do dispositivo para edição.",
-            "<strong>Estado de compra</strong> — se desbloqueou o Maskmoji Pro via Google Play. A verificação é da Google; no dispositivo guardamos só o sinal Pro.",
-            "<strong>Dados publicitários (versão gratuita)</strong> — Appodeal e redes mediadas podem recolher GAID, IP e dados de interação (ver Terceiros)."
-          ]
-        },
-        {
-          "type": "p",
-          "html": "<strong>Não</strong> recolhemos de forma consciente o seu nome, e-mail ou telefone pela app, salvo se nos contactar por e-mail."
-        }
-      ]
-    },
-    {
-      "title": "Permissões Android",
-      "blocks": [
-        {
-          "type": "p",
-          "html": "A app pode pedir as permissões necessárias às suas funções:"
+          "html": "Depending on how you use MediaFolio, the following categories of data may be processed:"
         },
         {
           "type": "ul",
           "items": [
-            "<strong>Ler imagens / vídeo</strong> — abrir fotos e vídeos selecionados.",
-            "<strong>Câmara</strong> — captura opcional de foto ou vídeo para editar.",
-            "<strong>Internet e estado da rede</strong> — anúncios (versão gratuita) e Google Play.",
-            "<strong>Notificações e serviço em primeiro plano</strong> — progresso de tarefas longas e aviso ao concluir.",
-            "<strong>ID de publicidade</strong> — usado por parceiros de anúncios (versão gratuita)."
+            "<strong>Photos and videos on your device</strong> — read from your gallery for the decoy view and for import into the hidden vault. Media is encrypted and stored locally in the app vault folder.",
+            "<strong>Hidden vault data</strong> — encrypted files, thumbnails, and database stored in app-private storage on your device. We do not receive copies of vault content.",
+            "<strong>App settings</strong> — language, Pro status, and UI preferences stored locally.",
+            "<strong>Biometric unlock</strong> — optional fingerprint unlock uses Android biometric APIs; secrets are stored in the device keychain.",
+            "<strong>Purchase status</strong> — whether you unlocked MediaFolio Pro via Google Play in-app billing.",
+            "<strong>Advertising data (free version)</strong> — interstitial ads when entering the hidden area; Appodeal and partners may process advertising identifiers (see Third parties)."
           ]
         },
         {
           "type": "p",
-          "html": "Pode revogar permissões nas definições do Android; algumas funções podem deixar de funcionar."
+          "html": "We do <strong>not</strong> knowingly collect your name, email address, or phone number through the app itself unless you contact us by email."
         }
       ]
     },
     {
-      "title": "Como usamos a informação",
-      "blocks": [
-        {
-          "type": "ul",
-          "items": [
-            "Detetar rostos e aplicar máscaras no dispositivo",
-            "Memorizar definições, ficheiros recentes e preferências do editor",
-            "Mostrar anúncios opcionais na versão gratuita",
-            "Processar compras na app via Google Play",
-            "Responder a pedidos de suporte que nos enviar"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Serviços de terceiros",
+      "title": "Android permissions",
       "blocks": [
         {
           "type": "p",
-          "html": "O Maskmoji integra serviços de terceiros:"
+          "html": "The app may request permissions required for its features:"
         },
         {
           "type": "ul",
           "items": [
-            "<strong>Appodeal</strong> (versão gratuita) — mediação publicitária. Ver <a href=\"https://www.appodeal.com/privacy-policy\" rel=\"noopener\">Appodeal Privacy Policy</a>.",
-            "<strong>Google Play Billing</strong> — compras na app Maskmoji Pro. Pagamentos pela Google. Ver <a href=\"https://payments.google.com/payments/apis-secure/get_legal_document?ldl=en_GB&amp;ldo=0&amp;ldt=buyertos\" rel=\"noopener\">Google Play Terms</a>."
+            "<strong>Read images / video</strong> — to show your device gallery in the decoy view and to import media into the hidden vault. Media is not uploaded.",
+            "<strong>Biometric</strong> — optional fingerprint unlock for the hidden vault.",
+            "<strong>Internet & network state</strong> — advertisements (free version) and Google Play purchases.",
+            "<strong>Advertising ID</strong> — used by ad partners in the free version (see Third parties)."
           ]
         },
         {
           "type": "p",
-          "html": "Estes fornecedores podem processar dados fora do seu país. Regem-se pelas próprias políticas."
+          "html": "You can revoke permissions in Android system settings; some features may stop working if you do."
         }
       ]
     },
     {
-      "title": "Armazenamento e retenção",
+      "title": "How we use information",
+      "blocks": [
+        {
+          "type": "ul",
+          "items": [
+            "Display your device gallery and manage a password-protected hidden vault on your device",
+            "Encrypt and store imported media locally",
+            "Remember your settings and language",
+            "Show optional ads when opening the hidden area (free version)",
+            "Process in-app purchases through Google Play",
+            "Respond to support requests you send us"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Third-party services",
       "blocks": [
         {
           "type": "p",
-          "html": "Ficheiros editados, cache, miniaturas e definições ficam no dispositivo até os apagar ou desinstalar a app. Não fazemos cópia na nuvem dos seus conteúdos."
+          "html": "MediaFolio integrates services operated by third parties:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "<strong>Appodeal</strong> (free version) — advertising mediation. Appodeal and demand partners may process IP address, advertising identifier, and ad interaction data. See <a href=\"https://www.appodeal.com/privacy-policy\" rel=\"noopener\">Appodeal Privacy Policy</a>. You can limit ad personalization in your Google/Android ad settings.",
+            "<strong>Google Play Billing</strong> — in-app purchases for MediaFolio Pro. Payment and purchase records are processed by Google. See <a href=\"https://payments.google.com/payments/apis-secure/get_legal_document?ldl=en_GB&amp;ldo=0&amp;ldt=buyertos\" rel=\"noopener\">Google Play Terms</a>."
+          ]
         },
         {
           "type": "p",
-          "html": "Se nos enviar e-mail de suporte, guardamos a mensagem só o tempo necessário."
+          "html": "These providers may process data on servers outside your country. Their use of data is governed by their own policies."
         }
       ]
     },
     {
-      "title": "Segurança",
+      "title": "Data storage and retention",
       "blocks": [
         {
           "type": "p",
-          "html": "Adotamos medidas razoáveis para proteger os dados no dispositivo. Nenhum método é 100% seguro."
-        }
-      ]
-    },
-    {
-      "title": "Crianças",
-      "blocks": [
-        {
-          "type": "p",
-          "html": "O Maskmoji não se destina a menores de 13 anos (ou à idade mínima do seu país)."
-        }
-      ]
-    },
-    {
-      "title": "Os seus direitos",
-      "blocks": [
-        {
-          "type": "p",
-          "html": "Consoante a localização (p. ex. UE/EEE ao abrigo do RGPD), pode ter direitos de acesso, retificação, apagamento, limitação ou oposição, e de apresentar reclamação."
+          "html": "Vault files, cache copies, thumbnails, and settings remain on your device until you delete them, clear app data, or uninstall the app. We do not operate a cloud backup of your media."
         },
         {
           "type": "p",
-          "html": "Como a maioria dos dados fica no dispositivo, limpe os dados ou desinstale. Para anúncios: definições Android e <a href=\"https://www.appodeal.com/privacy-policy\" rel=\"noopener\">Appodeal Privacy Policy</a>. Outro: <a href=\"mailto:pavelpalityka@gmail.com\">pavelpalityka@gmail.com</a>."
+          "html": "If you email us for support, we keep your message only as long as needed to handle the request."
         }
       ]
     },
     {
-      "title": "Alterações",
+      "title": "Security",
       "blocks": [
         {
           "type": "p",
-          "html": "Podemos atualizar esta política. A data «Última atualização» mudará. O uso continuado implica aceitação."
+          "html": "We use reasonable measures to protect data stored by the app on your device. No method of storage or transmission is 100% secure."
         }
       ]
     },
     {
-      "title": "Contacto",
+      "title": "Children",
       "blocks": [
         {
           "type": "p",
-          "html": "Perguntas sobre esta política: <a href=\"mailto:pavelpalityka@gmail.com\">pavelpalityka@gmail.com</a>"
+          "html": "MediaFolio is not directed at children under 13 (or the minimum age required in your country). We do not knowingly collect personal information from children."
+        }
+      ]
+    },
+    {
+      "title": "Your rights",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "Depending on your location (for example the EU/EEA under GDPR), you may have rights to access, rectify, erase, restrict, or object to processing of personal data, and to lodge a complaint with a supervisory authority."
+        },
+        {
+          "type": "p",
+          "html": "Because most data stays on your device, you can often exercise these rights by clearing app data or uninstalling the app. For advertising-related data, use Android ad settings and see the <a href=\"https://www.appodeal.com/privacy-policy\" rel=\"noopener\">Appodeal Privacy Policy</a>. Contact us at <a href=\"mailto:pavelpalityka@gmail.com\">pavelpalityka@gmail.com</a> for other requests."
+        }
+      ]
+    },
+    {
+      "title": "Limitation of liability",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "The developer is <strong>not liable</strong> for loss of photos, videos, documents, or other data. This includes uninstalling the app, clearing app data, forgetting your password, device failure, loss or theft of the device, or not making your own backups."
+        },
+        {
+          "type": "p",
+          "html": "Vault data is stored <strong>only on your device</strong>. There is <strong>no password recovery</strong> and no cloud restore service. You are responsible for remembering your password and protecting your device."
+        }
+      ]
+    },
+    {
+      "title": "Changes",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "We may update this policy from time to time. The “Last updated” date at the top will change when we do. Continued use of the app after changes means you accept the updated policy."
+        }
+      ]
+    },
+    {
+      "title": "Contact",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "Questions about this policy: <a href=\"mailto:pavelpalityka@gmail.com\">pavelpalityka@gmail.com</a>"
         }
       ]
     }

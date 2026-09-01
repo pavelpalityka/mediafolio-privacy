@@ -1,24 +1,24 @@
 {
-  "title": "Tietosuojakäytäntö — Maskmoji",
-  "updatedLabel": "Viimeksi päivitetty: 26. elokuuta 2026",
-  "footer": "© 2026 Pavel Palityka · Maskmoji",
-  "fallbackNotice": "",
+  "title": "Privacy Policy — MediaFolio",
+  "updatedLabel": "Last updated: 1 September 2026",
+  "footer": "© 2026 Pavel Palityka · MediaFolio",
+  "fallbackNotice": "Koko teksti näytetään englanniksi. Sitova versio on englanninkielinen.",
   "sections": [
     {
-      "title": "Johdanto",
+      "title": "Introduction",
       "blocks": [
         {
           "type": "p",
-          "html": "This Privacy Policy explains how <strong>Maskmoji</strong> (the mobile application “Maskmoji” / “Maskmoji Pro”, package <code>com.palityka.maskmoji</code>) processes information when you use the app on Android."
+          "html": "This Privacy Policy explains how <strong>MediaFolio</strong> (the mobile application “MediaFolio” / “MediaFolio Pro”, package <code>com.palityka.mediafolio</code>) processes information when you use the app on Android."
         },
         {
           "type": "p",
-          "html": "Maskmoji hides faces in photos and videos using emoji, color blocks, pixelation, or blur. Processing runs <strong>on your device</strong>. The app does <strong>not</strong> require an account and does <strong>not</strong> upload your photos or videos to our servers."
+          "html": "MediaFolio is a media gallery with a <strong>hidden vault</strong> for photos, videos, and PDFs. The public gallery shows your device photos and videos; the hidden area is protected by a password or fingerprint. All vault data is stored <strong>only on your device</strong> in app-private storage. The app does <strong>not</strong> require an account and does <strong>not</strong> upload your media to our servers. Version 1 has no Google cloud backup or sync."
         }
       ]
     },
     {
-      "title": "Rekisterinpitäjä",
+      "title": "Data controller",
       "blocks": [
         {
           "type": "p",
@@ -27,21 +27,21 @@
       ]
     },
     {
-      "title": "Sovelluksen käsittelemät tiedot",
+      "title": "Information processed by the app",
       "blocks": [
         {
           "type": "p",
-          "html": "Depending on how you use Maskmoji, the following categories of data may be processed:"
+          "html": "Depending on how you use MediaFolio, the following categories of data may be processed:"
         },
         {
           "type": "ul",
           "items": [
-            "<strong>Photos and videos on your device</strong> — files you pick, share into the app, or capture with the camera. They are read and processed locally to detect faces and apply masks. Output files are saved where you choose (for example your gallery or a folder you select). We do not receive copies of this media.",
-            "<strong>Face detection data</strong> — bounding boxes and related metadata used only during editing and video processing on the device. Face detection uses a local ONNX model (YuNet). This data is not sent to us.",
-            "<strong>App settings and recent list</strong> — theme, language, default emoji, cover style, and a local list of recent jobs stored on your device.",
-            "<strong>Camera capture</strong> — if you take a photo or video with the in-app camera, the file is stored in the app’s cache on your device for editing.",
-            "<strong>Purchase status</strong> — whether you unlocked Maskmoji Pro via Google Play in-app billing. Verification is handled by Google; we store only the Pro/unlock flag on your device.",
-            "<strong>Advertising data (free version)</strong> — if you use the free edition with ads, Appodeal and its mediated ad networks may collect your advertising identifier (GAID), IP address, device and network information, and ad interaction data (see Third parties)."
+            "<strong>Photos and videos on your device</strong> — read from your gallery for the decoy view and for import into the hidden vault. Media is encrypted and stored locally in the app vault folder.",
+            "<strong>Hidden vault data</strong> — encrypted files, thumbnails, and database stored in app-private storage on your device. We do not receive copies of vault content.",
+            "<strong>App settings</strong> — language, Pro status, and UI preferences stored locally.",
+            "<strong>Biometric unlock</strong> — optional fingerprint unlock uses Android biometric APIs; secrets are stored in the device keychain.",
+            "<strong>Purchase status</strong> — whether you unlocked MediaFolio Pro via Google Play in-app billing.",
+            "<strong>Advertising data (free version)</strong> — interstitial ads when entering the hidden area; Appodeal and partners may process advertising identifiers (see Third parties)."
           ]
         },
         {
@@ -51,7 +51,7 @@
       ]
     },
     {
-      "title": "Android-käyttöoikeudet",
+      "title": "Android permissions",
       "blocks": [
         {
           "type": "p",
@@ -60,10 +60,9 @@
         {
           "type": "ul",
           "items": [
-            "<strong>Read images / video</strong> — to open photos and videos you select (MediaStore and the system document picker).",
-            "<strong>Camera</strong> — optional capture of a new photo or video for editing.",
-            "<strong>Internet & network state</strong> — to load advertisements (free version) and to communicate with Google Play for purchases.",
-            "<strong>Notifications & foreground service</strong> — to show progress while a long job runs in the background, and to notify you when processing finishes.",
+            "<strong>Read images / video</strong> — to show your device gallery in the decoy view and to import media into the hidden vault. Media is not uploaded.",
+            "<strong>Biometric</strong> — optional fingerprint unlock for the hidden vault.",
+            "<strong>Internet & network state</strong> — advertisements (free version) and Google Play purchases.",
             "<strong>Advertising ID</strong> — used by ad partners in the free version (see Third parties)."
           ]
         },
@@ -74,14 +73,15 @@
       ]
     },
     {
-      "title": "Miten käytämme tietoja",
+      "title": "How we use information",
       "blocks": [
         {
           "type": "ul",
           "items": [
-            "Detect faces and apply masks to photos and videos on your device",
-            "Remember your settings, recent files, and editor preferences",
-            "Show optional ads in the free version",
+            "Display your device gallery and manage a password-protected hidden vault on your device",
+            "Encrypt and store imported media locally",
+            "Remember your settings and language",
+            "Show optional ads when opening the hidden area (free version)",
             "Process in-app purchases through Google Play",
             "Respond to support requests you send us"
           ]
@@ -89,17 +89,17 @@
       ]
     },
     {
-      "title": "Kolmansien osapuolten palvelut",
+      "title": "Third-party services",
       "blocks": [
         {
           "type": "p",
-          "html": "Maskmoji integrates services operated by third parties:"
+          "html": "MediaFolio integrates services operated by third parties:"
         },
         {
           "type": "ul",
           "items": [
             "<strong>Appodeal</strong> (free version) — advertising mediation. Appodeal and demand partners may process IP address, advertising identifier, and ad interaction data. See <a href=\"https://www.appodeal.com/privacy-policy\" rel=\"noopener\">Appodeal Privacy Policy</a>. You can limit ad personalization in your Google/Android ad settings.",
-            "<strong>Google Play Billing</strong> — in-app purchases for Maskmoji Pro. Payment and purchase records are processed by Google. See <a href=\"https://payments.google.com/payments/apis-secure/get_legal_document?ldl=en_GB&amp;ldo=0&amp;ldt=buyertos\" rel=\"noopener\">Google Play Terms</a>."
+            "<strong>Google Play Billing</strong> — in-app purchases for MediaFolio Pro. Payment and purchase records are processed by Google. See <a href=\"https://payments.google.com/payments/apis-secure/get_legal_document?ldl=en_GB&amp;ldo=0&amp;ldt=buyertos\" rel=\"noopener\">Google Play Terms</a>."
           ]
         },
         {
@@ -109,11 +109,11 @@
       ]
     },
     {
-      "title": "Tallennus ja säilytys",
+      "title": "Data storage and retention",
       "blocks": [
         {
           "type": "p",
-          "html": "Edited files, cache copies, thumbnails, and settings remain on your device until you delete them, clear app data, or uninstall the app. We do not operate a cloud backup of your media."
+          "html": "Vault files, cache copies, thumbnails, and settings remain on your device until you delete them, clear app data, or uninstall the app. We do not operate a cloud backup of your media."
         },
         {
           "type": "p",
@@ -122,7 +122,7 @@
       ]
     },
     {
-      "title": "Turvallisuus",
+      "title": "Security",
       "blocks": [
         {
           "type": "p",
@@ -131,16 +131,16 @@
       ]
     },
     {
-      "title": "Lapset",
+      "title": "Children",
       "blocks": [
         {
           "type": "p",
-          "html": "Maskmoji is not directed at children under 13 (or the minimum age required in your country). We do not knowingly collect personal information from children."
+          "html": "MediaFolio is not directed at children under 13 (or the minimum age required in your country). We do not knowingly collect personal information from children."
         }
       ]
     },
     {
-      "title": "Oikeutesi",
+      "title": "Your rights",
       "blocks": [
         {
           "type": "p",
@@ -153,7 +153,20 @@
       ]
     },
     {
-      "title": "Muutokset",
+      "title": "Limitation of liability",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "The developer is <strong>not liable</strong> for loss of photos, videos, documents, or other data. This includes uninstalling the app, clearing app data, forgetting your password, device failure, loss or theft of the device, or not making your own backups."
+        },
+        {
+          "type": "p",
+          "html": "Vault data is stored <strong>only on your device</strong>. There is <strong>no password recovery</strong> and no cloud restore service. You are responsible for remembering your password and protecting your device."
+        }
+      ]
+    },
+    {
+      "title": "Changes",
       "blocks": [
         {
           "type": "p",
@@ -162,7 +175,7 @@
       ]
     },
     {
-      "title": "Yhteystiedot",
+      "title": "Contact",
       "blocks": [
         {
           "type": "p",
