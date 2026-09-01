@@ -58,11 +58,10 @@
         {
           "type": "ul",
           "items": [
-            "<strong>READ_MEDIA_IMAGES / READ_MEDIA_VIDEO</strong> (Android 13+) или <strong>READ_EXTERNAL_STORAGE</strong> (старые версии) — чтобы показать галерею обманки и импортировать медиа с устройства;",
-            "<strong>READ_MEDIA_VISUAL_USER_SELECTED</strong> — для выбора конкретных файлов без полного доступа к медиа;",
-            "<strong>CAMERA</strong> — если вы снимаете фото или видео прямо в приложении;",
-            "<strong>USE_BIOMETRIC</strong> — для входа по отпечатку или Face Unlock (опционально);",
-            "<strong>INTERNET</strong> — для рекламы (Appodeal) и открытия ссылок (например, политики конфиденциальности)."
+            "<strong>Чтение фото и видео</strong> — <strong>READ_MEDIA_IMAGES</strong> / <strong>READ_MEDIA_VIDEO</strong> (Android 13+) или <strong>READ_EXTERNAL_STORAGE</strong> (старые версии): галерея обманки и импорт в скрытое хранилище. Медиа не загружаются на наши серверы.",
+            "<strong>Биометрия</strong> (<strong>USE_BIOMETRIC</strong>) — опциональный вход по отпечатку в скрытое хранилище.",
+            "<strong>Интернет и состояние сети</strong> — реклама (бесплатная версия) и покупки через Google Play.",
+            "<strong>Advertising ID</strong> — идентификатор рекламы для партнёров в бесплатной версии (см. раздел о третьих сторонах)."
           ]
         },
         {
