@@ -59,6 +59,7 @@
           "type": "ul",
           "items": [
             "<strong>Читання фото та відео</strong> — <strong>READ_MEDIA_IMAGES</strong> / <strong>READ_MEDIA_VIDEO</strong> (Android 13+) або <strong>READ_EXTERNAL_STORAGE</strong> (старі версії): галерея обманки та імпорт у скарбницю. Медіа не завантажуються на наші сервери.",
+            "<strong>Вибрані фото та відео</strong> — <strong>READ_MEDIA_VISUAL_USER_SELECTED</strong> (Android 14+): якщо в системному діалогу вибрати «вибрані», а не «всі», програма бачить лише позначені файли. Додаткові можна додати в системному виборі (кнопка «Додати» в програмі).",
             "<strong>Біометрія</strong> (<strong>USE_BIOMETRIC</strong>) — опційний вхід відбитком у скарбницю.",
             "<strong>Інтернет і стан сети</strong> — реклама (безкоштовна версія) та покупки через Google Play.",
             "<strong>Advertising ID</strong> — рекламний ідентифікатор для партнерів у безкоштовній версії (див. розділ про треті сторони)."
