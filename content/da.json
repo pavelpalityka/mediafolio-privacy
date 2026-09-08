@@ -1,6 +1,6 @@
 {
   "title": "Privacy Policy — MediaFolio",
-  "updatedLabel": "Last updated: 1 September 2026",
+  "updatedLabel": "Last updated: 7 September 2026",
   "footer": "© 2026 Pavel Palityka · MediaFolio",
   "fallbackNotice": "Den fulde tekst vises på engelsk. Den bindende version er den engelske.",
   "sections": [
@@ -13,7 +13,7 @@
         },
         {
           "type": "p",
-          "html": "MediaFolio is a media gallery with a <strong>hidden vault</strong> for photos, videos, and PDFs. The public gallery shows your device photos and videos; the hidden area is protected by a password or fingerprint. All vault data is stored <strong>only on your device</strong> in app-private storage. The app does <strong>not</strong> require an account and does <strong>not</strong> upload your media to our servers. Version 1 has no Google cloud backup or sync."
+          "html": "MediaFolio is a media gallery with a <strong>hidden vault</strong> for photos, videos, PDFs, other files you choose, and whole folders. The public gallery shows your device photos and videos; the hidden area is protected by a password or fingerprint. All vault data is stored <strong>only on your device</strong> in app-private storage. The app does <strong>not</strong> require an account and does <strong>not</strong> upload your media or files to our servers. Version 1 has no Google cloud backup or sync."
         }
       ]
     },
@@ -37,7 +37,9 @@
           "type": "ul",
           "items": [
             "<strong>Photos and videos on your device</strong> — read from your gallery for the decoy view and for import into the hidden vault. Media is encrypted and stored locally in the app vault folder.",
-            "<strong>Hidden vault data</strong> — encrypted files, thumbnails, and database stored in app-private storage on your device. We do not receive copies of vault content.",
+            "<strong>Files you select</strong> — any files you pick through the system file picker (“Add files”), including documents and other formats. Selected files are copied, encrypted, and stored only in the vault on your device.",
+            "<strong>Folders you select</strong> — when you use “Add folder”, the app reads the folder you grant access to (via Android’s document/folder picker) and imports its file contents into a vault folder with the same display name. Nested subfolders and file names may be stored as local metadata so items can be restored to a similar relative path when possible.",
+            "<strong>Hidden vault data</strong> — encrypted files, thumbnails, folder structure, restore-path hints, and the local database in app-private storage. We do not receive copies of vault content.",
             "<strong>App settings</strong> — language, Pro status, and UI preferences stored locally.",
             "<strong>Biometric unlock</strong> — optional fingerprint unlock uses Android biometric APIs; secrets are stored in the device keychain.",
             "<strong>Purchase status</strong> — whether you unlocked MediaFolio Pro via Google Play in-app billing.",
@@ -62,6 +64,9 @@
           "items": [
             "<strong>Read images / video</strong> — <strong>READ_MEDIA_IMAGES</strong> / <strong>READ_MEDIA_VIDEO</strong> (Android 13+) or <strong>READ_EXTERNAL_STORAGE</strong> (older versions): decoy gallery and vault import. Media is not uploaded.",
             "<strong>Selected photos & videos</strong> — <strong>READ_MEDIA_VISUAL_USER_SELECTED</strong> (Android 14+): if you choose “selected” in the system dialog instead of “all”, the app can read only the photos and videos you picked. You can add more later in the system picker.",
+            "<strong>Files and folders (system picker)</strong> — access to individual files or a folder tree is granted only for items you pick in the Android document/folder picker (SAF). Persistable URI permission applies only to what you selected.",
+            "<strong>All files access (optional)</strong> — <code>MANAGE_EXTERNAL_STORAGE</code> may be requested only if you choose to create or reconnect a vault folder under shared Documents (for example after reinstall). Everyday import of photos, files, and folders uses the system picker and does not need this permission.",
+            "<strong>Notifications</strong> — optional progress notifications while hiding or restoring large files (Android 13+). A foreground service may run briefly for that progress.",
             "<strong>Biometric</strong> — optional fingerprint unlock for the hidden vault.",
             "<strong>Internet & network state</strong> — advertisements (free version) and Google Play purchases.",
             "<strong>Advertising ID</strong> — used by ad partners in the free version (see Third parties)."
@@ -80,7 +85,9 @@
           "type": "ul",
           "items": [
             "Display your device gallery and manage a password-protected hidden vault on your device",
-            "Encrypt and store imported media locally",
+            "Encrypt and store imported photos, videos, files, and folder contents locally",
+            "Remember folder names and restore-path hints so items can be restored to the original relative folder when possible (otherwise Download or a similar shared location)",
+            "Optionally remove the original from device storage after a successful hide, only when you confirm the system delete prompt",
             "Remember your settings and language",
             "Show optional ads when opening the hidden area (free version)",
             "Process in-app purchases through Google Play",
@@ -114,7 +121,7 @@
       "blocks": [
         {
           "type": "p",
-          "html": "Vault files, cache copies, thumbnails, and settings remain on your device until you delete them, clear app data, or uninstall the app. We do not operate a cloud backup of your media."
+          "html": "Vault files, folders metadata, cache copies, thumbnails, and settings remain on your device until you delete them, clear app data, or uninstall the app. We do not operate a cloud backup of your media or files."
         },
         {
           "type": "p",
@@ -158,7 +165,7 @@
       "blocks": [
         {
           "type": "p",
-          "html": "The developer is <strong>not liable</strong> for loss of photos, videos, documents, or other data. This includes uninstalling the app, clearing app data, forgetting your password, device failure, loss or theft of the device, or not making your own backups."
+          "html": "The developer is <strong>not liable</strong> for loss of photos, videos, documents, files, folders, or other data. This includes uninstalling the app, clearing app data, forgetting your password, device failure, loss or theft of the device, or not making your own backups."
         },
         {
           "type": "p",
