@@ -1,6 +1,6 @@
 {
   "title": "Политика конфиденциальности — MediaFolio",
-  "updatedLabel": "Последнее обновление: 7 сентября 2026 г.",
+  "updatedLabel": "Последнее обновление: 28 сентября 2026 г.",
   "footer": "© 2026 Павел Палитка · MediaFolio",
   "fallbackNotice": "",
   "sections": [
@@ -43,7 +43,7 @@
             "<strong>Настройки приложения</strong> — язык, статус Pro и параметры интерфейса, хранящиеся локально.",
             "<strong>Биометрический вход</strong> — опциональный вход по отпечатку через API Android; секреты хранятся в связке ключей устройства.",
             "<strong>Статус покупки</strong> — разблокировали ли вы MediaFolio Pro через покупку в Google Play.",
-            "<strong>Рекламные данные (бесплатная версия)</strong> — полноэкранная реклама при входе в скрытую зону; Appodeal и партнёры могут обрабатывать рекламные идентификаторы (см. «Третьи стороны»)."
+            "<strong>Рекламные данные (бесплатная версия)</strong> — полноэкранная реклама при входе в скрытую зону; Yandex Mobile Ads SDK и партнёры могут обрабатывать рекламные идентификаторы (см. «Третьи стороны»)."
           ]
         },
         {
@@ -106,7 +106,7 @@
         {
           "type": "ul",
           "items": [
-            "<strong>Appodeal</strong> (бесплатная версия) — медиация рекламы. Appodeal и партнёры могут обрабатывать IP-адрес, рекламный идентификатор и данные о взаимодействии с рекламой. См. <a href=\"https://www.appodeal.com/privacy-policy\" rel=\"noopener\">Политику конфиденциальности Appodeal</a>. Персонализацию рекламы можно ограничить в настройках Google/Android.",
+            "<strong>Yandex Mobile Ads SDK</strong> (бесплатная версия) — медиация рекламы. Yandex Mobile Ads SDK и партнёры могут обрабатывать IP-адрес, рекламный идентификатор и данные о взаимодействии с рекламой. См. <a href=\"https://yandex.com/legal/international_ads_privacy_policy/en/\" rel=\"noopener\">Политику конфиденциальности Yandex Mobile Ads</a>. Персонализацию рекламы можно ограничить в настройках Google/Android.",
             "<strong>Google Play Billing</strong> — покупки в приложении для MediaFolio Pro. Платежи и записи о покупках обрабатывает Google. См. <a href=\"https://payments.google.com/payments/apis-secure/get_legal_document?ldl=en_GB&amp;ldo=0&amp;ldt=buyertos\" rel=\"noopener\">условия Google Play</a>."
           ]
         },
@@ -156,7 +156,7 @@
         },
         {
           "type": "p",
-          "html": "Поскольку большинство данных остаётся на устройстве, эти права часто можно реализовать очисткой данных приложения или удалением приложения. Для рекламных данных используйте настройки рекламы Android и см. <a href=\"https://www.appodeal.com/privacy-policy\" rel=\"noopener\">Политику Appodeal</a>. По другим запросам: <a href=\"mailto:pavelpalityka@gmail.com\">pavelpalityka@gmail.com</a>."
+          "html": "Поскольку большинство данных остаётся на устройстве, эти права часто можно реализовать очисткой данных приложения или удалением приложения. Для рекламных данных используйте настройки рекламы Android и см. <a href=\"https://yandex.com/legal/international_ads_privacy_policy/en/\" rel=\"noopener\">Политику Yandex Mobile Ads</a>. По другим запросам: <a href=\"mailto:pavelpalityka@gmail.com\">pavelpalityka@gmail.com</a>."
         }
       ]
     },

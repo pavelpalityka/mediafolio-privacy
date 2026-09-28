@@ -1,6 +1,6 @@
 {
   "title": "Privacy Policy — MediaFolio",
-  "updatedLabel": "Last updated: 7 September 2026",
+  "updatedLabel": "Last updated: 28 September 2026",
   "footer": "© 2026 Pavel Palityka · MediaFolio",
   "fallbackNotice": "Целосниот текст е на англиски. Обврзувачката верзија е на англиски.",
   "sections": [
@@ -43,7 +43,7 @@
             "<strong>App settings</strong> — language, Pro status, and UI preferences stored locally.",
             "<strong>Biometric unlock</strong> — optional fingerprint unlock uses Android biometric APIs; secrets are stored in the device keychain.",
             "<strong>Purchase status</strong> — whether you unlocked MediaFolio Pro via Google Play in-app billing.",
-            "<strong>Advertising data (free version)</strong> — interstitial ads when entering the hidden area; Appodeal and partners may process advertising identifiers (see Third parties)."
+            "<strong>Advertising data (free version)</strong> — interstitial ads when entering the hidden area; Yandex Mobile Ads SDK and partners may process advertising identifiers (see Third parties)."
           ]
         },
         {
@@ -106,7 +106,7 @@
         {
           "type": "ul",
           "items": [
-            "<strong>Appodeal</strong> (free version) — advertising mediation. Appodeal and demand partners may process IP address, advertising identifier, and ad interaction data. See <a href=\"https://www.appodeal.com/privacy-policy\" rel=\"noopener\">Appodeal Privacy Policy</a>. You can limit ad personalization in your Google/Android ad settings.",
+            "<strong>Yandex Mobile Ads SDK</strong> (free version) — advertising mediation. Yandex Mobile Ads SDK and demand partners may process IP address, advertising identifier, and ad interaction data. See <a href=\"https://yandex.com/legal/international_ads_privacy_policy/en/\" rel=\"noopener\">Yandex Mobile Ads Privacy Policy</a>. You can limit ad personalization in your Google/Android ad settings.",
             "<strong>Google Play Billing</strong> — in-app purchases for MediaFolio Pro. Payment and purchase records are processed by Google. See <a href=\"https://payments.google.com/payments/apis-secure/get_legal_document?ldl=en_GB&amp;ldo=0&amp;ldt=buyertos\" rel=\"noopener\">Google Play Terms</a>."
           ]
         },
@@ -156,7 +156,7 @@
         },
         {
           "type": "p",
-          "html": "Because most data stays on your device, you can often exercise these rights by clearing app data or uninstalling the app. For advertising-related data, use Android ad settings and see the <a href=\"https://www.appodeal.com/privacy-policy\" rel=\"noopener\">Appodeal Privacy Policy</a>. Contact us at <a href=\"mailto:pavelpalityka@gmail.com\">pavelpalityka@gmail.com</a> for other requests."
+          "html": "Because most data stays on your device, you can often exercise these rights by clearing app data or uninstalling the app. For advertising-related data, use Android ad settings and see the <a href=\"https://yandex.com/legal/international_ads_privacy_policy/en/\" rel=\"noopener\">Yandex Mobile Ads Privacy Policy</a>. Contact us at <a href=\"mailto:pavelpalityka@gmail.com\">pavelpalityka@gmail.com</a> for other requests."
         }
       ]
     },
