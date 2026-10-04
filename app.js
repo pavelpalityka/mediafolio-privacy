@@ -63,7 +63,8 @@ function normalizeLang(code) {
 
 function queryLang() {
     const params = new URLSearchParams(window.location.search);
-    return normalizeLang(params.get("lang") || "");
+    const raw = params.get("lang");
+    return raw ? normalizeLang(raw) : null;
 }
 
 function pickLang() {

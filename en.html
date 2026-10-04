@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Privacy Policy — MediaFolio">
+    <title>Privacy Policy — MediaFolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a class="brand" href="index.html">MediaFolio</a>
+            <div class="lang-select">
+                <a href="index.html">Other languages</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h1>Privacy Policy — MediaFolio</h1>
+        <p class="updated">Last updated: 28 September 2026</p>
+        <article id="body">
+            <section>
+                <h2>Introduction</h2>
+                <p>This Privacy Policy explains how <strong>MediaFolio</strong> (the mobile application “MediaFolio” / “MediaFolio Pro”, package <code>com.palityka.mediafolio</code>) processes information when you use the app on Android.</p>
+                <p>MediaFolio is a media gallery with a <strong>hidden vault</strong> for photos, videos, PDFs, other files you choose, and whole folders. The public gallery shows your device photos and videos; the hidden area is protected by a password or fingerprint. All vault data is stored <strong>only on your device</strong> in app-private storage. The app does <strong>not</strong> require an account and does <strong>not</strong> upload your media or files to our servers. Version 1 has no Google cloud backup or sync.</p>
+            </section>
+            <section>
+                <h2>Data controller</h2>
+                <p><strong>Controller:</strong> Pavel Palityka<br><strong>Contact:</strong> <a href="mailto:pavelpalityka@gmail.com">pavelpalityka@gmail.com</a></p>
+            </section>
+            <section>
+                <h2>Information processed by the app</h2>
+                <p>Depending on how you use MediaFolio, the following categories of data may be processed:</p>
+                <ul>
+                    <li><strong>Photos and videos on your device</strong> — read from your gallery for the decoy view and for import into the hidden vault. Media is encrypted and stored locally in the app vault folder.</li>
+                    <li><strong>Files you select</strong> — any files you pick through the system file picker (“Add files”), including documents and other formats. Selected files are copied, encrypted, and stored only in the vault on your device.</li>
+                    <li><strong>Folders you select</strong> — when you use “Add folder”, the app reads the folder you grant access to (via Android’s document/folder picker) and imports its file contents into a vault folder with the same display name. Nested subfolders and file names may be stored as local metadata so items can be restored to a similar relative path when possible.</li>
+                    <li><strong>Hidden vault data</strong> — encrypted files, thumbnails, folder structure, restore-path hints, and the local database in app-private storage. We do not receive copies of vault content.</li>
+                    <li><strong>App settings</strong> — language, Pro status, and UI preferences stored locally.</li>
+                    <li><strong>Biometric unlock</strong> — optional fingerprint unlock uses Android biometric APIs; secrets are stored in the device keychain.</li>
+                    <li><strong>Purchase status</strong> — whether you unlocked MediaFolio Pro via Google Play in-app billing.</li>
+                    <li><strong>Advertising data (free version)</strong> — interstitial ads when entering the hidden area; Yandex Mobile Ads SDK and partners may process advertising identifiers (see Third parties).</li>
+                </ul>
+                <p>We do <strong>not</strong> knowingly collect your name, email address, or phone number through the app itself unless you contact us by email.</p>
+            </section>
+            <section>
+                <h2>Android permissions</h2>
+                <p>The app may request permissions required for its features:</p>
+                <ul>
+                    <li><strong>Read images / video</strong> — <strong>READ_MEDIA_IMAGES</strong> / <strong>READ_MEDIA_VIDEO</strong> (Android 13+) or <strong>READ_EXTERNAL_STORAGE</strong> (older versions): decoy gallery and vault import. Media is not uploaded.</li>
+                    <li><strong>Selected photos & videos</strong> — <strong>READ_MEDIA_VISUAL_USER_SELECTED</strong> (Android 14+): if you choose “selected” in the system dialog instead of “all”, the app can read only the photos and videos you picked. You can add more later in the system picker.</li>
+                    <li><strong>Files and folders (system picker)</strong> — access to individual files or a folder tree is granted only for items you pick in the Android document/folder picker (SAF). Persistable URI permission applies only to what you selected.</li>
+                    <li><strong>All files access (optional)</strong> — <code>MANAGE_EXTERNAL_STORAGE</code> may be requested only if you choose to create or reconnect a vault folder under shared Documents (for example after reinstall). Everyday import of photos, files, and folders uses the system picker and does not need this permission.</li>
+                    <li><strong>Notifications</strong> — optional progress notifications while hiding or restoring large files (Android 13+). A foreground service may run briefly for that progress.</li>
+                    <li><strong>Biometric</strong> — optional fingerprint unlock for the hidden vault.</li>
+                    <li><strong>Internet & network state</strong> — advertisements (free version) and Google Play purchases.</li>
+                    <li><strong>Advertising ID</strong> — used by ad partners in the free version (see Third parties).</li>
+                </ul>
+                <p>You can revoke permissions in Android system settings; some features may stop working if you do.</p>
+            </section>
+            <section>
+                <h2>How we use information</h2>
+                <ul>
+                    <li>Display your device gallery and manage a password-protected hidden vault on your device</li>
+                    <li>Encrypt and store imported photos, videos, files, and folder contents locally</li>
+                    <li>Remember folder names and restore-path hints so items can be restored to the original relative folder when possible (otherwise Download or a similar shared location)</li>
+                    <li>Optionally remove the original from device storage after a successful hide, only when you confirm the system delete prompt</li>
+                    <li>Remember your settings and language</li>
+                    <li>Show optional ads when opening the hidden area (free version)</li>
+                    <li>Process in-app purchases through Google Play</li>
+                    <li>Respond to support requests you send us</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Third-party services</h2>
+                <p>MediaFolio integrates services operated by third parties:</p>
+                <ul>
+                    <li><strong>Yandex Mobile Ads SDK</strong> (free version) — advertising mediation. Yandex Mobile Ads SDK and demand partners may process IP address, advertising identifier, and ad interaction data. See <a href="https://yandex.com/legal/international_ads_privacy_policy/en/" rel="noopener">Yandex Mobile Ads Privacy Policy</a>. You can limit ad personalization in your Google/Android ad settings.</li>
+                    <li><strong>Google Play Billing</strong> — in-app purchases for MediaFolio Pro. Payment and purchase records are processed by Google. See <a href="https://payments.google.com/payments/apis-secure/get_legal_document?ldl=en_GB&amp;ldo=0&amp;ldt=buyertos" rel="noopener">Google Play Terms</a>.</li>
+                </ul>
+                <p>These providers may process data on servers outside your country. Their use of data is governed by their own policies.</p>
+            </section>
+            <section>
+                <h2>Data storage and retention</h2>
+                <p>Vault files, folders metadata, cache copies, thumbnails, and settings remain on your device until you delete them, clear app data, or uninstall the app. We do not operate a cloud backup of your media or files.</p>
+                <p>If you email us for support, we keep your message only as long as needed to handle the request.</p>
+            </section>
+            <section>
+                <h2>Security</h2>
+                <p>We use reasonable measures to protect data stored by the app on your device. No method of storage or transmission is 100% secure.</p>
+            </section>
+            <section>
+                <h2>Children</h2>
+                <p>MediaFolio is not directed at children under 13 (or the minimum age required in your country). We do not knowingly collect personal information from children.</p>
+            </section>
+            <section>
+                <h2>Your rights</h2>
+                <p>Depending on your location (for example the EU/EEA under GDPR), you may have rights to access, rectify, erase, restrict, or object to processing of personal data, and to lodge a complaint with a supervisory authority.</p>
+                <p>Because most data stays on your device, you can often exercise these rights by clearing app data or uninstalling the app. For advertising-related data, use Android ad settings and see the <a href="https://yandex.com/legal/international_ads_privacy_policy/en/" rel="noopener">Yandex Mobile Ads Privacy Policy</a>. Contact us at <a href="mailto:pavelpalityka@gmail.com">pavelpalityka@gmail.com</a> for other requests.</p>
+            </section>
+            <section>
+                <h2>Limitation of liability</h2>
+                <p>The developer is <strong>not liable</strong> for loss of photos, videos, documents, files, folders, or other data. This includes uninstalling the app, clearing app data, forgetting your password, device failure, loss or theft of the device, or not making your own backups.</p>
+                <p>Vault data is stored <strong>only on your device</strong>. There is <strong>no password recovery</strong> and no cloud restore service. You are responsible for remembering your password and protecting your device.</p>
+            </section>
+            <section>
+                <h2>Changes</h2>
+                <p>We may update this policy from time to time. The “Last updated” date at the top will change when we do. Continued use of the app after changes means you accept the updated policy.</p>
+            </section>
+            <section>
+                <h2>Contact</h2>
+                <p>Questions about this policy: <a href="mailto:pavelpalityka@gmail.com">pavelpalityka@gmail.com</a></p>
+            </section>
+        </article>
+    </main>
+    <footer>© 2026 Pavel Palityka · MediaFolio</footer>
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="隐私政策 — MediaFolio">
+    <title>隐私政策 — MediaFolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a class="brand" href="index.html">MediaFolio</a>
+            <div class="lang-select">
+                <a href="index.html">其他语言 / Other languages</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h1>隐私政策 — MediaFolio</h1>
+        <p class="updated">最后更新：2026年9月28日</p>
+        <article id="body">
+            <section>
+                <h2>介绍</h2>
+                <p>本隐私政策说明 <strong>MediaFolio</strong>（移动应用“MediaFolio”/“MediaFolio Pro”，包名 <code>com.palityka.mediafolio</code>）在您于 Android 上使用本应用时如何处理相关信息。</p>
+                <p>MediaFolio 是一款带有<strong>隐藏保险库</strong>的媒体相册，可用于存放照片、视频、PDF、您选择的其他文件以及整个文件夹。公开相册显示您设备上的照片和视频；隐藏区域由密码或指纹保护。所有保险库数据<strong>仅存储在您的设备上</strong>的应用私有存储空间中。本应用<strong>不</strong>要求注册账号，也<strong>不会</strong>将您的媒体或文件上传到我们的服务器。第 1 版不提供 Google 云备份或同步功能。</p>
+            </section>
+            <section>
+                <h2>数据控制者</h2>
+                <p><strong>控制者：</strong>Pavel Palityka<br><strong>联系方式：</strong><a href="mailto:pavelpalityka@gmail.com">pavelpalityka@gmail.com</a></p>
+            </section>
+            <section>
+                <h2>应用处理的信息</h2>
+                <p>根据您使用 MediaFolio 的方式，可能会处理以下类别的数据：</p>
+                <ul>
+                    <li><strong>您设备上的照片和视频</strong> — 从相册读取，用于伪装视图以及导入隐藏保险库。媒体会在本地加密并存储在应用保险库文件夹中。</li>
+                    <li><strong>您选择的文件</strong> — 您通过系统文件选择器（“添加文件”）选取的任何文件，包括文档和其他格式。所选文件会被复制、加密，且仅存储在您设备的保险库中。</li>
+                    <li><strong>您选择的文件夹</strong> — 使用“添加文件夹”时，应用会读取您授权访问的文件夹（通过 Android 的文档/文件夹选择器），并将其文件内容导入到具有相同显示名称的保险库文件夹中。为尽可能将条目恢复到相似的相对路径，可能会将嵌套子文件夹和文件名作为本地元数据存储。</li>
+                    <li><strong>隐藏保险库数据</strong> — 加密文件、缩略图、文件夹结构、恢复路径提示以及应用私有存储中的本地数据库。我们不会获得保险库内容的副本。</li>
+                    <li><strong>应用设置</strong> — 本地存储的语言、Pro 状态和界面偏好设置。</li>
+                    <li><strong>生物识别解锁</strong> — 可选的指纹解锁使用 Android 生物识别 API；密钥保存在设备密钥库中。</li>
+                    <li><strong>购买状态</strong> — 您是否通过 Google Play 应用内购买解锁了 MediaFolio Pro。</li>
+                    <li><strong>广告数据（免费版）</strong> — 进入隐藏区域时的插页广告；Yandex Mobile Ads SDK 及合作伙伴可能会处理广告标识符（见“第三方”）。</li>
+                </ul>
+                <p>除非您通过电子邮件与我们联系，我们<strong>不会</strong>通过应用本身故意收集您的姓名、电子邮件地址或电话号码。</p>
+            </section>
+            <section>
+                <h2>Android 权限</h2>
+                <p>为实现各项功能，应用可能会请求以下必要权限：</p>
+                <ul>
+                    <li><strong>读取图片/视频</strong> — <strong>READ_MEDIA_IMAGES</strong> / <strong>READ_MEDIA_VIDEO</strong>（Android 13 及以上）或 <strong>READ_EXTERNAL_STORAGE</strong>（较旧版本）：用于伪装相册和保险库导入。媒体不会被上传。</li>
+                    <li><strong>选定的照片和视频</strong> — <strong>READ_MEDIA_VISUAL_USER_SELECTED</strong>（Android 14 及以上）：如果您在系统对话框中选择“选定的”而非“全部”，应用只能读取您挑选的照片和视频。之后可以在系统选择器中添加更多。</li>
+                    <li><strong>文件和文件夹（系统选择器）</strong> — 对单个文件或文件夹树的访问权限仅授予您在 Android 文档/文件夹选择器（SAF）中挑选的项目。持久化 URI 权限仅适用于您所选的内容。</li>
+                    <li><strong>所有文件访问权限（可选）</strong> — 仅当您选择在共享的 Documents 下创建或重新连接保险库文件夹时（例如重新安装后），才可能请求 <code>MANAGE_EXTERNAL_STORAGE</code>。日常导入照片、文件和文件夹使用系统选择器，无需此权限。</li>
+                    <li><strong>通知</strong> — 在隐藏或恢复大型文件时的可选进度通知（Android 13 及以上）。为此进度可能会短暂运行前台服务。</li>
+                    <li><strong>生物识别</strong> — 为隐藏保险库提供的可选指纹解锁。</li>
+                    <li><strong>互联网和网络状态</strong> — 广告（免费版）和 Google Play 购买。</li>
+                    <li><strong>广告 ID</strong> — 免费版中由广告合作伙伴使用（见“第三方”）。</li>
+                </ul>
+                <p>您可以在 Android 系统设置中撤销权限；如果撤销，部分功能可能会停止工作。</p>
+            </section>
+            <section>
+                <h2>我们如何使用信息</h2>
+                <ul>
+                    <li>显示您设备的相册，并在您的设备上管理受密码保护的隐藏保险库</li>
+                    <li>在本地加密并存储导入的照片、视频、文件和文件夹内容</li>
+                    <li>记住文件夹名称和恢复路径提示，以便尽可能将条目恢复到原来的相对文件夹（否则恢复到 Download 或类似的共享位置）</li>
+                    <li>仅在您确认系统删除提示后，才可以选择在成功隐藏后从设备存储中移除原始文件</li>
+                    <li>记住您的设置和语言</li>
+                    <li>在打开隐藏区域时显示可选广告（免费版）</li>
+                    <li>通过 Google Play 处理应用内购买</li>
+                    <li>回复您发来的支持请求</li>
+                </ul>
+            </section>
+            <section>
+                <h2>第三方服务</h2>
+                <p>MediaFolio 集成了第三方运营的服务：</p>
+                <ul>
+                    <li><strong>Yandex Mobile Ads SDK</strong>（免费版）— 广告聚合。Yandex Mobile Ads SDK 及需求方合作伙伴可能会处理 IP 地址、广告标识符和广告互动数据。请参阅 <a href="https://yandex.com/legal/international_ads_privacy_policy/en/" rel="noopener">Yandex Mobile Ads 隐私政策</a>。您可以在 Google/Android 广告设置中限制广告个性化。</li>
+                    <li><strong>Google Play Billing</strong> — 用于 MediaFolio Pro 的应用内购买。付款和购买记录由 Google 处理。请参阅 <a href="https://payments.google.com/payments/apis-secure/get_legal_document?ldl=en_GB&amp;ldo=0&amp;ldt=buyertos" rel="noopener">Google Play 条款</a>。</li>
+                </ul>
+                <p>这些服务提供方可能会在您所在国家/地区以外的服务器上处理数据。其对数据的使用受其自身政策的约束。</p>
+            </section>
+            <section>
+                <h2>数据存储与保留</h2>
+                <p>保险库文件、文件夹元数据、缓存副本、缩略图和设置将保留在您的设备上，直到您删除它们、清除应用数据或卸载应用为止。我们不提供您的媒体或文件的云备份。</p>
+                <p>如果您通过电子邮件寻求支持，我们仅在处理请求所需的期间内保留您的来信。</p>
+            </section>
+            <section>
+                <h2>安全</h2>
+                <p>我们采取合理措施保护应用存储在您设备上的数据。任何存储或传输方式都不是 100% 安全的。</p>
+            </section>
+            <section>
+                <h2>儿童</h2>
+                <p>MediaFolio 不面向 13 岁以下（或您所在国家/地区要求的最低年龄）的儿童。我们不会故意收集儿童的个人信息。</p>
+            </section>
+            <section>
+                <h2>您的权利</h2>
+                <p>根据您的所在地（例如欧盟/欧洲经济区适用 GDPR），您可能享有访问、更正、删除、限制或反对处理个人数据的权利，以及向监管机构投诉的权利。</p>
+                <p>由于大部分数据保留在您的设备上，您通常可以通过清除应用数据或卸载应用来行使这些权利。对于广告相关数据，请使用 Android 广告设置，并参阅 <a href="https://yandex.com/legal/international_ads_privacy_policy/en/" rel="noopener">Yandex Mobile Ads 隐私政策</a>。如有其他请求，请通过 <a href="mailto:pavelpalityka@gmail.com">pavelpalityka@gmail.com</a> 与我们联系。</p>
+            </section>
+            <section>
+                <h2>责任限制</h2>
+                <p>开发者对照片、视频、文档、文件、文件夹或其他数据的丢失<strong>不承担责任</strong>。这包括卸载应用、清除应用数据、忘记密码、设备故障、设备丢失或被盗，以及未自行备份等情况。</p>
+                <p>保险库数据<strong>仅存储在您的设备上</strong>。<strong>没有密码找回</strong>，也没有云恢复服务。您有责任记住密码并保护好您的设备。</p>
+            </section>
+            <section>
+                <h2>政策变更</h2>
+                <p>我们可能会不时更新本政策。更新时，页面顶部的“最后更新”日期会随之变更。变更后继续使用本应用即表示您接受更新后的政策。</p>
+            </section>
+            <section>
+                <h2>联系我们</h2>
+                <p>有关本政策的问题：<a href="mailto:pavelpalityka@gmail.com">pavelpalityka@gmail.com</a></p>
+            </section>
+        </article>
+    </main>
+    <footer>© 2026 Pavel Palityka · MediaFolio</footer>
+</body>
+</html>

@@ -3,7 +3,9 @@
 """Generate privacy JSON for locales without a hand-written translation."""
 from __future__ import annotations
 
+import html
 import json
+import sys
 from copy import deepcopy
 from pathlib import Path
 
@@ -77,5 +79,82 @@ def main() -> None:
         print("wrote", out.name)
 
 
+STATIC_LANGS = {
+    "en": "en",
+    "zh_CN": "zh-CN",
+}
+
+PAGE = """<!DOCTYPE html>
+<html lang="{html_lang}">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{title}">
+    <title>{title}</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a class="brand" href="index.html">MediaFolio</a>
+            <div class="lang-select">
+                <a href="index.html">{more}</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h1>{title}</h1>
+        <p class="updated">{updated}</p>
+        <article id="body">
+{sections}
+        </article>
+    </main>
+    <footer>{footer}</footer>
+</body>
+</html>
+"""
+
+LABELS = {
+    "en": "Other languages",
+    "zh_CN": "其他语言 / Other languages",
+}
+
+
+def render_static(data: dict, lang: str) -> Path:
+    parts = []
+    for section in data["sections"]:
+        parts.append("            <section>")
+        parts.append("                <h2>%s</h2>" % html.escape(section["title"]))
+        for block in section["blocks"]:
+            if block["type"] == "p":
+                parts.append("                <p>%s</p>" % block["html"])
+            elif block["type"] == "ul":
+                parts.append("                <ul>")
+                for item in block["items"]:
+                    parts.append("                    <li>%s</li>" % item)
+                parts.append("                </ul>")
+        parts.append("            </section>")
+    page = PAGE.format(
+        html_lang=STATIC_LANGS[lang],
+        title=html.escape(data["title"]),
+        updated=html.escape(data.get("updatedLabel", "")),
+        footer=html.escape(data.get("footer", "")),
+        more=html.escape(LABELS[lang]),
+        sections="\n".join(parts),
+    )
+    out = ROOT / f"{lang}.html"
+    out.write_text(page, encoding="utf-8")
+    return out
+
+
+def static() -> None:
+    for lang in STATIC_LANGS:
+        data = json.loads((CONTENT / f"{lang}.json").read_text(encoding="utf-8"))
+        print("wrote", render_static(data, lang).name)
+
+
 if __name__ == "__main__":
-    main()
+    if "--static" in sys.argv:
+        static()
+    else:
+        main()
