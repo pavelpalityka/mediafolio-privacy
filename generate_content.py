@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parent
 CONTENT = ROOT / "content"
 EN_PATH = CONTENT / "en.json"
 
-HAND_MAINTAINED = {"en", "ru", "uk"}
+HAND_MAINTAINED = {"en", "ru", "uk", "zh_CN"}
 
 FALLBACK_NOTICE = {
     "by": "Поўны тэкст паказаны на англійскай мове. Актуальная версія — англійская.",
@@ -46,7 +46,6 @@ FALLBACK_NOTICE = {
     "ca": "El text complet es mostra en anglès. La versió vinculant és l’anglesa.",
     "ga": "Taispeántar an téacs iomlán i mBéarla. Is í an leagan Béarla an ceann ceangailteach.",
     "mt": "It-test kollu jintwera bl-Ingliż. Il-verżjoni vincolanti hija l-Ingliża.",
-    "zh_CN": "完整文本以英文显示。以英文版本为准。",
     "ja": "全文は英語で表示されます。拘束力のある版は英語版です。",
     "ko": "전체 텍스트는 영어로 표시됩니다. 구속력 있는 버전은 영어 버전입니다.",
     "vi": "Toàn văn hiển thị bằng tiếng Anh. Phiên bản ràng buộc là bản tiếng Anh.",
